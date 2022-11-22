@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <script>
+      const firstArray = ['Yash', 'Technologies', 'Indore']
+      const secondArray = ['Yash', 'Pune', 'Indore', 'Mumbai']
+      const thirdArray = []
+      for (let i = 0; i < firstArray.length; i++) {
+        for (let j = 0; j < secondArray.length; j++) {
+          if (firstArray[i] == secondArray[j]) {
+            thirdArray.push(firstArray[i])
+          }
+        }
+
+        console.log(thirdArray)
+      }
+    </script>
+  </body>
+</html>

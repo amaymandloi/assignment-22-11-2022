@@ -1,0 +1,29 @@
+<html>
+    <body>
+<script>
+   const firstArray = ['Yash','Technologies','Indore'];
+   const  secondArray = ['Yash','Pune', 'Indore','Mumbai'];
+   const thirdArray = [];
+ 
+ for(let i=0; i<firstArray.length;i++)
+ {
+    if(thirdArray.indexOf(firstArray[i])== -1){
+       thirdArray.push(firstArray[i])
+    }
+ }
+
+ 
+
+ for(let i=0; i<secondArray.length;i++)
+ {
+    if(thirdArray.indexOf(secondArray[i])== -1){
+      thirdArray.push(secondArray[i])
+    }
+ }
+
+ console.log(thirdArray);
+                                
+</script>
+
+    </body>
+</html>
